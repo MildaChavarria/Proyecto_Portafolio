@@ -1,0 +1,236 @@
+.enlinea-orden {
+    display: inline-flex;
+}
+.espaciado{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.bg-transparente {
+    background: none;
+}
+.letra-blanca {
+    color: white;
+    opacity: 70%;
+    margin-right: 20px;
+}
+.fondo-encabezado {
+    background-image: url(img/fondo.jpg);
+    height: 400px;
+}
+.pasar-mouse:hover{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    opacity: 100%;
+    cursor: pointer;
+}
+.centrado {
+    text-align: center;
+}
+h3 {
+    color: rgb(5, 168, 141);
+    -webkit-text-stroke: 0.5px rgb(7, 139, 117);
+    text-align: center;
+}
+.cajas-info {
+    width: 40%;
+    margin: 2% 2% 0 2%;
+}
+.boton {
+    margin: 5% 0 0 35%;
+    background:none;
+
+}
+.modalmio{
+    background-color: rgb(10, 10, 10);
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+.circular-progress {
+    &,
+    &:before,
+    &:after {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    }
+    position: relative;
+    transform: rotate(72deg);
+    margin: auto;
+    background: linear-gradient(
+        0deg,
+        #250BDF 50%,
+        #2e2c3d 50%
+    );
+    &:before,
+    &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        color: white;
+    }
+    
+    &:before {
+        content: "C#";
+        background: black content-box;
+        padding: 6%;
+        box-sizing: border-box;
+        font-size: 15px;
+        line-height: 70px;
+        transform: rotate(-72deg);
+    }
+    &:after {
+        content: "40%";
+        background: linear-gradient(
+            transparent 50%,
+            black 50%
+        );
+        transform: scale(1.1) rotate(-72deg);
+        line-height: 120px;
+    }
+}
+.cp-CSharp {
+    transform: rotate(90deg);
+    background: linear-gradient(
+        0deg,
+        #250BDF 50%,
+        #2e2c3d 50% 
+        );
+    &:before {
+        content: "C#";
+        transform: rotate(-90deg);
+    }
+    &:after {
+        content: "50%";
+        transform: scale(1.1) rotate(-90deg);
+    }
+}
+.cp-HTML{
+    transform: rotate(126deg);
+    background: linear-gradient(
+        0deg,
+        #d111c7 50%,
+        #3d173b 50% 
+        );
+    &:before {
+        content: "HTML";
+        transform: rotate(-126deg);
+    }
+    &:after {
+        content: "70%";
+        transform: scale(1.1) rotate(-126deg);
+    }
+}
+.cp-CSS{
+    transform: rotate(144deg);
+    background: linear-gradient(
+        0deg,
+        #0bdfc3 50%,
+        #123530 50%  
+        );
+    &:before {
+        content: "CSS";
+        transform: rotate(-144deg);
+    }
+    &:after {
+        content: "80%";
+        transform: scale(1.1) rotate(-144deg);
+    }
+}
+.cp-Bootstrap{
+    transform: rotate(144deg);
+    background: linear-gradient(
+        0deg,
+        #7a12a3 50%,
+        #3c2446 50% 
+        );
+    &:before {
+        content: "Bootstrap";
+        transform: rotate(-144deg);
+    }
+    &:after {
+        content: "80%";
+        transform: scale(1.1) rotate(-144deg);
+    }
+}
+.cp-Mysql{
+    transform: rotate(72deg);
+    background: linear-gradient(
+        0deg,
+        #1ddf0b 50%,
+        #1e421b 50% 
+        );
+    &:before {
+        content: "MySql";
+        transform: rotate(-72deg);
+    }
+    &:after {
+        content: "40%";
+        transform: scale(1.1) rotate(-72deg);
+    }
+}
+.cp-AdPtshp{
+    transform: rotate(144deg);
+    background: linear-gradient(
+        0deg,
+        #ffcb21 50%,
+        #4e4116 50% 
+        );
+    &:before {
+        content: "Photoshop";
+        transform: rotate(-144deg);
+    }
+    &:after {
+        content: "80%";
+        transform: scale(1.1) rotate(-144deg);
+    }
+}
+.cp-AdIlltdr{
+    transform: rotate(90deg);
+    background: linear-gradient(
+        0deg,
+        #ff284c 50%,
+        #501721 50% 
+        );
+    &:before {
+        content: "Illustrator";
+        transform: rotate(-90deg);
+    }
+    &:after {
+        content: "50%";
+        transform: scale(1.1) rotate(-90deg);
+    }
+}
+.cp-CrlDrw{
+    transform: rotate(90deg);
+    background: linear-gradient(
+        0deg,
+        #2445ff 50%,
+        #111a4d 50% 
+        );
+    &:before {
+        content: "CorelDraw";
+        transform: rotate(-90deg);
+    }
+    &:after {
+        content: "50%";
+        transform: scale(1.1) rotate(-90deg);
+    }
+}.cp-PHP{
+    transform: rotate(72deg);
+    background: linear-gradient(
+        0deg,
+        #27ffc9 50%,
+        #134d3e 50% 
+        );
+    &:before {
+        content: "PHP";
+        transform: rotate(-72deg);
+    }
+    &:after {
+        content: "40%";
+        transform: scale(1.1) rotate(-72deg);
+    }
+}
